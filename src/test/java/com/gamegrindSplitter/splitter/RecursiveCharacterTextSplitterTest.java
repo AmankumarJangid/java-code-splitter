@@ -1,4 +1,4 @@
-package com.codeanalyzer.splitter;
+package com.gamegrindSplitter.splitter;
 
 import org.junit.jupiter.api.Test;
 

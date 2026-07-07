@@ -1,4 +1,4 @@
-package com.codeanalyzer.splitter;
+package com.gamegrindSplitter.splitter;
 
 import dev.langchain4j.data.document.Document;
 import dev.langchain4j.data.document.DocumentSplitter;

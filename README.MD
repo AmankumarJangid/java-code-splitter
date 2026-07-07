@@ -62,8 +62,8 @@ a shared module — up to you).
 ### Basic — fixed language
 
 ```java
-import com.codeanalyzer.splitter.CodeSplitters;
-import com.codeanalyzer.splitter.Language;
+import com.gamegrindSplitter.splitter.CodeSplitters;
+import com.gamegrindSplitter.splitter.Language;
 import dev.langchain4j.data.document.Document;
 import dev.langchain4j.data.document.DocumentSplitter;
 import dev.langchain4j.data.segment.TextSegment;
@@ -136,7 +136,7 @@ check the algorithm without pulling in Maven/langchain4j at all:
 javac -d out src/main/java/com/codeanalyzer/splitter/Language.java \
              src/main/java/com/codeanalyzer/splitter/RecursiveCharacterTextSplitter.java \
              src/test/java/com/codeanalyzer/splitter/ManualTest.java
-java -cp out com.codeanalyzer.splitter.ManualTest
+java -cp out com.gamegrindSplitter.splitter.ManualTest
 ```
 
 ## A note on the `Metadata` API
