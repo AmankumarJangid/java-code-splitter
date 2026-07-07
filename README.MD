@@ -23,7 +23,25 @@ had no equivalent in langchain4j. This gives you:
 // Java, same idea
 DocumentSplitter splitter = CodeSplitters.recursive(Language.JAVA, 600, 30);
 ```
+## Installation
 
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>com.github.AmankumarJangid</groupId>
+        <artifactId>java-code-splitter</artifactId>
+        <version>v0.2.0-alpha</version>
+    </dependency>
+</dependencies>
+
+```
 ## Project layout
 
 ```
