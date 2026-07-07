@@ -42,6 +42,19 @@ DocumentSplitter splitter = CodeSplitters.recursive(Language.JAVA, 600, 30);
 </dependencies>
 
 ```
+
+``` groovy
+   repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.AmankumarJangid:java-code-splitter:v0.2.0-alpha'
+}
+
+
+```
 ## Project layout
 
 ```
